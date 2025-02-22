@@ -45,7 +45,7 @@ public class PageEventService {
             input.setName("Processed Page");
             input.setUser("Jane Doe");
             System.out.println("--------------------------------");
-            System.out.println("Processed Page Event: " + input.toString());
+            System.out.println("Processed Page Event: " + input);
             System.out.println("--------------------------------");
             return input;
         };
